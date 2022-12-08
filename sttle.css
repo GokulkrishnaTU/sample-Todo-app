@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(pink,orange);
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    margin: 50px;
+}
+.form{
+    width: 20%;
+    height: 5%;
+    font-size: 2rem;
+}
+input{
+    width: 100%;
+    height: 25px;
+    border: none;
+    margin-top: 10px;
+    border-bottom: 2px solid dodgerblue;
+}
+.to-btn{
+    border: none;
+    width: 70px;
+    height: 35px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.todo-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    width: 30%;
+    list-style: none;
+}
